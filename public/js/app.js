@@ -26599,9 +26599,11 @@ var _hoisted_4 = {
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Create Tag");
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+var _hoisted_6 = {
   "class": "w-full mb-8 overflow-hidden rounded-lg shadow-lg"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex justify-between"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "flex-1"
@@ -26630,7 +26632,52 @@ var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
   value: "10"
 }, "10 Per Page"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("option", {
   value: "15"
-}, "15 Per Page")])])])], -1
+}, "15 Per Page")])])], -1
+/* HOISTED */
+);
+
+var _hoisted_8 = {
+  "class": "w-full overflow-x-auto"
+};
+var _hoisted_9 = {
+  "class": "w-full"
+};
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("thead", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tr", {
+  "class": "text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+  "class": "px-4 py-3"
+}, "Name"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+  "class": "px-4 py-3"
+}, "Slug"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("th", {
+  "class": "px-4 py-3"
+}, "Manage")])], -1
+/* HOISTED */
+);
+
+var _hoisted_11 = {
+  "class": "bg-white"
+};
+var _hoisted_12 = {
+  "class": "px-4 py-3 border"
+};
+var _hoisted_13 = {
+  "class": "px-4 py-3 text-ms font-semibold border"
+};
+
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", {
+  "class": "flex justify-around px-4 py-3 text-sm border"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded-lg"
+}, "Edit"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  "class": "bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded-lg"
+}, "Delete")], -1
+/* HOISTED */
+);
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "m-2 p-2"
+}, " Pagination Links ", -1
 /* HOISTED */
 );
 
@@ -26654,7 +26701,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }, 8
       /* PROPS */
-      , ["href"])]), _hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"w-full mb-8 overflow-hidden rounded-lg shadow-lg\">\n                    <div class=\"w-full shadow p-5 bg-white\">\n                        <div class=\"relative\">\n                            <div class=\"absolute flex items-center ml-2 h-full\">\n                                <svg class=\"w-4 h-4 fill-current text-primary-gray-dark\" viewBox=\"0 0 16 16\" fill=\"none\"\n                                    xmlns=\"http://www.w3.org/2000/svg\">\n                                    <path\n                                        d=\"M15.8898 15.0493L11.8588 11.0182C11.7869 10.9463 11.6932 10.9088 11.5932 10.9088H11.2713C12.3431 9.74952 12.9994 8.20272 12.9994 6.49968C12.9994 2.90923 10.0901 0 6.49968 0C2.90923 0 0 2.90923 0 6.49968C0 10.0901 2.90923 12.9994 6.49968 12.9994C8.20272 12.9994 9.74952 12.3431 10.9088 11.2744V11.5932C10.9088 11.6932 10.9495 11.7869 11.0182 11.8588L15.0493 15.8898C15.1961 16.0367 15.4336 16.0367 15.5805 15.8898L15.8898 15.5805C16.0367 15.4336 16.0367 15.1961 15.8898 15.0493ZM6.49968 11.9994C3.45921 11.9994 0.999951 9.54016 0.999951 6.49968C0.999951 3.45921 3.45921 0.999951 6.49968 0.999951C9.54016 0.999951 11.9994 3.45921 11.9994 6.49968C11.9994 9.54016 9.54016 11.9994 6.49968 11.9994Z\">\n                                    </path>\n                                </svg>\n                            </div>\n\n                            <input type=\"text\" placeholder=\"Search by title\"\n                                class=\"px-8 py-3 w-full md:w-2/6 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm\" />\n                        </div>\n\n                        <div class=\"flex justify-between mt-4\">\n                            <p class=\"font-medium\">Filters</p>\n\n                            <button\n                                class=\"px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-md\">Reset Filter</button>\n                        </div>\n\n                        <div class=\"flex justify-between space-x-4 mt-4\">\n                            <select\n                                class=\"px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm\">\n                                <option value=\"asc\">Asc</option>\n                                <option value=\"desc\">Desc</option>\n                            </select>\n\n                            <select\n                                class=\"px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm\">\n                                <option value=\"5\">5 Per Page</option>\n                                <option value=\"10\">10 Per Page</option>\n                                <option value=\"15\">15 Per Page</option>\n                            </select>\n                        </div>\n\n                    </div>\n\n                    <div class=\"w-full overflow-x-auto\">\n                        <table class=\"w-full\">\n                            <thead>\n                                <tr\n                                    class=\"text-md font-semibold tracking-wide text-left text-gray-900 bg-gray-100 uppercase border-b border-gray-600\">\n                                    <th class=\"px-4 py-3\">Name</th>\n                                    <th class=\"px-4 py-3\">Slug</th>\n                                    <th class=\"px-4 py-3\">Manage</th>\n                                </tr>\n                            </thead>\n                            <tbody class=\"bg-white\">\n                                    <tr v-for=\"tag in tags.data\" :key=\"tag.id\" class=\"text-gray-700\">\n                                        <td class=\"px-4 py-3 border\">\n                                            {{ tag.tag_name }}\n                                        </td>\n                                        <td class=\"px-4 py-3 text-ms font-semibold border\">\n                                            {{ tag.slug }}\n                                        </td>\n\n                                        <td class=\"flex justify-around px-4 py-3 text-sm border\">\n                                            <button\n                                                class=\"bg-green-500 hover:bg-green-700 text-white px-4 py-2 rounded-lg\">Edit</button>\n                                            <button\n                                                class=\"bg-red-500 hover:bg-red-700 text-white px-4 py-2 rounded-lg\">Delete</button>\n                                        </td>\n                                    </tr>\n                            </tbody>\n\n                        </table>\n                        <div class=\"m-2 p-2\">\n                            Pagination Links\n                        </div>\n                    </div>\n                </div> ")])])];
+      , ["href"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("table", _hoisted_9, [_hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("tbody", _hoisted_11, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.tags.data, function (tag) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("tr", {
+          key: tag.id,
+          "class": "text-gray-700"
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(tag.tag_name), 1
+        /* TEXT */
+        ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("td", _hoisted_13, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(tag.slug), 1
+        /* TEXT */
+        ), _hoisted_14]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))])]), _hoisted_15])])])])];
     }),
     _: 1
     /* STABLE */
